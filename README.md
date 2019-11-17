@@ -1,3 +1,12 @@
+# meow-generator
+
+## Description
+- Cat-themed meme generator.
+- Loosely based off of the capstone project for a React course on Scrimba.
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +75,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# meow-generator
