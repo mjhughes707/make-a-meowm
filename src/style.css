@@ -25,7 +25,7 @@ body {
 }
 
 main {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 /***** HEADER *****/
@@ -183,7 +183,7 @@ footer {
   width: 100%;
   background: cornflowerblue;
   color: white;
-  height: 50px;
+  height: 60px;
 }
 
 footer > p {
