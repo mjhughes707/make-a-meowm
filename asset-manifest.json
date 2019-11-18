@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/make-a-meowm/static/css/main.7be1f4ef.chunk.css",
-    "main.js": "/make-a-meowm/static/js/main.9f4f9ae2.chunk.js",
-    "main.js.map": "/make-a-meowm/static/js/main.9f4f9ae2.chunk.js.map",
+    "main.css": "/make-a-meowm/static/css/main.c4f9481e.chunk.css",
+    "main.js": "/make-a-meowm/static/js/main.1acb255a.chunk.js",
+    "main.js.map": "/make-a-meowm/static/js/main.1acb255a.chunk.js.map",
     "runtime-main.js": "/make-a-meowm/static/js/runtime-main.92a349a0.js",
     "runtime-main.js.map": "/make-a-meowm/static/js/runtime-main.92a349a0.js.map",
-    "static/js/2.20450f4d.chunk.js": "/make-a-meowm/static/js/2.20450f4d.chunk.js",
-    "static/js/2.20450f4d.chunk.js.map": "/make-a-meowm/static/js/2.20450f4d.chunk.js.map",
+    "static/js/2.fa1466df.chunk.js": "/make-a-meowm/static/js/2.fa1466df.chunk.js",
+    "static/js/2.fa1466df.chunk.js.map": "/make-a-meowm/static/js/2.fa1466df.chunk.js.map",
     "index.html": "/make-a-meowm/index.html",
-    "precache-manifest.bc2997f73ffb4fe391415547f922b0e2.js": "/make-a-meowm/precache-manifest.bc2997f73ffb4fe391415547f922b0e2.js",
+    "precache-manifest.d86547fa52f073aef9386bc3512eb230.js": "/make-a-meowm/precache-manifest.d86547fa52f073aef9386bc3512eb230.js",
     "service-worker.js": "/make-a-meowm/service-worker.js",
-    "static/css/main.7be1f4ef.chunk.css.map": "/make-a-meowm/static/css/main.7be1f4ef.chunk.css.map"
+    "static/css/main.c4f9481e.chunk.css.map": "/make-a-meowm/static/css/main.c4f9481e.chunk.css.map",
+    "static/media/black-cat-cartoon.png": "/make-a-meowm/static/media/black-cat-cartoon.37258601.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92a349a0.js",
-    "static/js/2.20450f4d.chunk.js",
-    "static/css/main.7be1f4ef.chunk.css",
-    "static/js/main.9f4f9ae2.chunk.js"
+    "static/js/2.fa1466df.chunk.js",
+    "static/css/main.c4f9481e.chunk.css",
+    "static/js/main.1acb255a.chunk.js"
   ]
 }
