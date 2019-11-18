@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/meow-generator/static/css/main.9823e122.chunk.css",
+    "main.js": "/meow-generator/static/js/main.b8ff6ae6.chunk.js",
+    "main.js.map": "/meow-generator/static/js/main.b8ff6ae6.chunk.js.map",
+    "runtime-main.js": "/meow-generator/static/js/runtime-main.d9b35cb2.js",
+    "runtime-main.js.map": "/meow-generator/static/js/runtime-main.d9b35cb2.js.map",
+    "static/js/2.42f6c6d4.chunk.js": "/meow-generator/static/js/2.42f6c6d4.chunk.js",
+    "static/js/2.42f6c6d4.chunk.js.map": "/meow-generator/static/js/2.42f6c6d4.chunk.js.map",
+    "index.html": "/meow-generator/index.html",
+    "precache-manifest.ce8aa789b1c3b4358fcca4aaaba4de09.js": "/meow-generator/precache-manifest.ce8aa789b1c3b4358fcca4aaaba4de09.js",
+    "service-worker.js": "/meow-generator/service-worker.js",
+    "static/css/main.9823e122.chunk.css.map": "/meow-generator/static/css/main.9823e122.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9b35cb2.js",
+    "static/js/2.42f6c6d4.chunk.js",
+    "static/css/main.9823e122.chunk.css",
+    "static/js/main.b8ff6ae6.chunk.js"
+  ]
+}
