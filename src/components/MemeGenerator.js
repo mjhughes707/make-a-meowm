@@ -58,7 +58,7 @@ class MemeGenerator extends React.Component {
             onChange={this.handleChange}
           />
 
-          <button>Meow</button>
+          <button><span>Meow </span></button>
 
         </form>
 
