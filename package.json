@@ -1,6 +1,6 @@
 {
-  "name": "meow-generator",
-  "homepage": "https://mjhughesio.github.io/meow-generator",
+  "name": "make-a-meowm",
+  "homepage": "https://mjhughesio.github.io/make-a-meowm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
