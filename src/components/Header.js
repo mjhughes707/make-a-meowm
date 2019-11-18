@@ -4,10 +4,10 @@ function Header() {
   return (
     <header>
       <img 
-        src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png"
-        alt="Troll face"
+        src="https://i.dlpng.com/static/png/5228797-download-cartoon-cats-png-animated-black-cat-gif-png-image-with-cartoon-cat-png-423_362_preview.png"
+        alt="Black Cat Cartoon"
       />
-      <p>Meow Generator</p>
+      <h1>Meow Generator</h1>
     </header>
   )
 }
