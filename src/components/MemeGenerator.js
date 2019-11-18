@@ -6,19 +6,17 @@ class MemeGenerator extends React.Component {
     this.state = {
       topText: "",
       bottomText: "",
-      randomImage: "http://i.imgflip.com/1bij.jpg", // starter image
-      allMemeImages: [],
+      randomCat: "",
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   componentDidMount() {
-    fetch("https://api.imgflip.com/get_memes") // obtains the data
+    fetch("https://api.thecatapi.com/v1/images/search") // obtains the data
     .then(response => response.json()) // converts to JSON
-    .then(response => {
-      const {memes} = response.data // extracts separated meme info from response data
-      this.setState({ allMemeImages: memes }) // stores all meme objects in state
+    .then(response => { 
+      this.setState({ randomCat: response[0].url }) // stores new cat image in state
     })
   }
 
@@ -31,9 +29,11 @@ class MemeGenerator extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault() // prevents reload
-    const randomNum = Math.floor(Math.random() * this.state.allMemeImages.length)
-    const randomUrl = this.state.allMemeImages[randomNum].url 
-    this.setState({ randomImage: randomUrl })
+    fetch("https://api.thecatapi.com/v1/images/search") // obtains the data
+    .then(response => response.json()) // converts to JSON
+    .then(response => { 
+      this.setState({ randomCat: response[0].url }) // stores new cat image in state
+    })
   }
 
   render() {
@@ -63,7 +63,7 @@ class MemeGenerator extends React.Component {
         </form>
 
         <div className="meme">
-          <img src={this.state.randomImage} alt="Meme" />
+          <img src={this.state.randomCat} alt="Meme" />
           <h2 className="top">{this.state.topText}</h2>
           <h2 className="bottom">{this.state.bottomText}</h2>
         </div>
