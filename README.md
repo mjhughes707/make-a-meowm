@@ -1,8 +1,18 @@
-# meow-generator
+# make-a-meowm
 
 ## Description
-- Cat-themed meme generator.
-- Loosely based off of the capstone project for a React course on Scrimba.
+- Cat-themed meme generator
+- Inspired by the capstone project for the Intro to React course on Scrimba: https://scrimba.com/g/glearnreact
+- Powered by my love for cats :-)
+
+## Languages
+- JavaScript, HTML & CSS
+
+## Framework
+- React
+
+## API
+- The Cat API:  https://thecatapi.com/
 
 
 ---
